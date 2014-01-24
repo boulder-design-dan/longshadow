@@ -20,6 +20,5 @@ site-default/assets/cache
 site-default/assets/installed.php
 
 site-skyscrapers
-.htaccess
 tmp
 upgrade.php
