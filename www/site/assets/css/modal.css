@@ -1,0 +1,5 @@
+NameError: .rounded is undefined in D:\www\longshadow\www\site\assets\css\modal.less on line 11, column 3:
+10 .modal{
+11   .rounded(10px);
+12   .drop-shadow(0px, 1px, 10px, 0.8);
+

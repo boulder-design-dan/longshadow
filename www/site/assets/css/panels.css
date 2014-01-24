@@ -1,0 +1,5 @@
+NameError: .rounded is undefined in D:\www\longshadow\www\site\assets\css\panels.less on line 8, column 5:
+7   .item {
+8     .rounded(10px);
+9     .drop-shadow(0px, 1px, 10px, 0.8);
+

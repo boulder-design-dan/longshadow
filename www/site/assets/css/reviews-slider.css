@@ -1,0 +1,111 @@
+/* slider */
+.reviews-slides-container {
+  position:relative;
+  background: #26292E;
+
+
+}
+
+.reviews-slides {
+  Adisplay: none;
+  height: auto;
+
+  Aborder: solid #FFFFFF 1px;
+}
+.reviews-slides .slide-image {
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-rihgt: 50px;
+    padding-bottom: 50px;
+}
+
+.reviews-slides .slide-copy {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 100%;
+          height: 6%;
+          background: #FFFFFF;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          font-style: italic;
+          font-size: 2em;
+          color: #cccccc;
+
+}
+
+
+
+
+
+.reviews-slides .slidesjs-navigation {
+  position: absolute;
+  bottom: 115px;
+  display: block;
+  padding: 12px 15px 8px 16px;
+  background: #DE5E60;
+  z-index: 1000;
+
+  color: #ffffff;
+
+  -webkit-transition: background-color 100ms linear, color 100ms;
+  -moz-transition: background-color 100ms linear, color 100ms;
+  -o-transition: background-color 100ms linear, color 100ms;
+  -ms-transition: background-color 100ms linear, color 100ms;
+  transition: background-color 100ms linear, color 100ms;
+}
+.reviews-slides .slidesjs-navigation:hover {
+  background: rgba(204, 204, 204, 0.67);
+  color: #DE5E60;
+}
+
+.reviews-slides .slidesjs-previous {
+  left: -14px;
+}
+
+.reviews-slides .slidesjs-next {
+  right: -14px;
+}
+
+
+
+.reviews-slides .slidesjs-pagination {
+  position: absolute;
+  left: 17px;
+  bottom: -2px;
+  margin-left: 0;
+  z-index: 1000;
+  color: #fff;
+  list-style: none;
+}
+
+.reviews-slides .slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.reviews-slides .slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.reviews-slides .slidesjs-pagination li a.active,
+.reviews-slides .slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.reviews-slides .slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+

@@ -1,0 +1,52 @@
+/* Define colours, sizes, common paths etc here */
+
+/*
+Defining a common path for the images makes it a bit more flexible for moving about, but you need to specify the url
+value in a particular format (see the sample below)
+*/
+@imgPath: "../images/";
+
+.sampleBackgroundPath {
+	background: url("@{imgPath}imagename.png") no-repeat 0 0;
+}
+
+@topbargreen: #A6D12C;
+
+@slidergreen: #00622C;
+
+@pink-header: #D5548D;
+@orange-header: #E7A336;
+@blue-header: #57B0DC;
+
+/* various greys */
+@grey1: #f0f0f0;
+@grey2: #e1e1df;
+
+
+// Grays
+// -------------------------
+@black:                 #000;
+@grayDarker:            #222;
+@grayDark:              #333;
+@gray:                  #555;
+@grayLight:             #999;
+@grayLighter:           #eee;
+@white:                 #fff;
+
+
+// Accent colors
+// -------------------------
+@blue:                  #049cdb;
+@blueDark:              #0064cd;
+@green:                 #46a546;
+@red:                   #9d261d;
+@yellow:                #ffc40d;
+@orange:                #f89406;
+@pink:                  #c3325f;
+@purple:                #7a43b6;
+
+
+// Scaffolding
+// -------------------------
+@bodyBackground:        @white;
+@textColor:             @grayDark;
