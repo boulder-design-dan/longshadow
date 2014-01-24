@@ -271,7 +271,9 @@ LONGSHADOW.tweetFeed = function(){
 ================================================== */
 
 LONGSHADOW.menu = function(){
-	$('#menu-nav, .slicknav_nav, #home-map-overlay').onePageNav({
+    var className = $('body').attr('class');
+    if(className == 'home'){
+    $('#menu-nav, .slicknav_nav, #home-map-overlay').onePageNav({
 		currentClass: 'current',
     	changeHash: false,
     	scrollSpeed: 750,
@@ -280,6 +282,7 @@ LONGSHADOW.menu = function(){
 		easing: 'easeOutExpo',
 		filter: ':not(.external)'
 	});
+    };
 }
 
 /* ==================================================

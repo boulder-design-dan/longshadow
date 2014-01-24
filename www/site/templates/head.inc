@@ -54,5 +54,5 @@
     <!-- End Analytics -->
 
 </head>
-<body>
+<body class="<?=$page->name;?>">
 
