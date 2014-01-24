@@ -240,20 +240,20 @@ h3.spec {
 =================================================== */
 .parallax-background-0 {
   background: url("../img/bow.png") no-repeat fixed 5% 2600px;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 160px;
+  top: 130px;
   width: 100%;
 }
 .parallax-background-1 {
   background: url("../img/rose.png") no-repeat fixed 85% 1600px;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 160px;
+  top: 130px;
   width: 100%;
 }
 .parallax-background-2 {
@@ -262,7 +262,7 @@ h3.spec {
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 160px;
+  top: 130px;
   width: 100%;
   opacity: 1;
 }
@@ -318,7 +318,7 @@ h3.spec {
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 112px;
+  top: 80px;
   width: 100%;
   z-index: 110;
 }
@@ -326,12 +326,12 @@ h3.spec {
     Home map overlay
 ======================================================= */
 #home-map-overlay {
-  position: absolute;
-  top: 160px;
+  position: fixed;
+  top: 130px;
   left: 0px;
   width: 100%;
-  height: 600px;
-  z-index: 1000;
+  height: 400px;
+  z-index: 100;
 }
 #home-map-overlay img {
   width: 100%;
@@ -343,15 +343,15 @@ h3.spec {
 #home-panel {
   position: relative;
   overflow: hidden;
-  height: 50%;
+  height: 70%;
 }
 /* ==================================================
    Series Panel
 ================================================== */
 #theseries {
   z-index: 110;
-  margin-top: 200px;
-  padding-top: 200px;
+  margin-top: 130px;
+  padding-top: 130px;
   padding-bottom: 50px;
 }
 #theseries .title {

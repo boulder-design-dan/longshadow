@@ -271,7 +271,7 @@ LONGSHADOW.tweetFeed = function(){
 ================================================== */
 
 LONGSHADOW.menu = function(){
-	$('#menu-nav, .slicknav_nav').onePageNav({
+	$('#menu-nav, .slicknav_nav, #home-map-overlay').onePageNav({
 		currentClass: 'current',
     	changeHash: false,
     	scrollSpeed: 750,
@@ -488,9 +488,9 @@ LONGSHADOW.toggle = function(){
         $('.homerollover').tooltipster({
 
             theme: '.longshadow-theme',
-            position: 'bottom',
-            arrow: 'false',
-            offsetY : '200'
+            position: 'bottom'
+            //arrow: 'false',
+            //offsetY : '200'
         });
 
 

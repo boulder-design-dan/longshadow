@@ -26,10 +26,12 @@
 <script src="../site/assets/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="../site/assets/js/main.js"></script> <!-- Default JS -->
 <!-- End Js -->
+<!-- remove when no longer needed
 <map name="longshadowmap">
     <area class="homerollover tooltip" shape="rect" coords="100,0,400,300" alt="Bow" href="#" title="Bow">
     <area class="homerollover tooltip" shape="rect" coords="600,0,900,300" alt="Raven" href="#" title="Raven">
     <area class="homerollover tooltip" shape="rect" coords="1000,0,1300,300" alt="Rose" href="#" title="Rose">
 </map>
+-->
 </body>
 </html>

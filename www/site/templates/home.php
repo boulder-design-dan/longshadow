@@ -8,7 +8,7 @@
 include("./head.inc");
 
 ?>
-    <div id="home-map-overlay"><img src="site/assets/img/transparent.png" usemap="#longshadowmap"></div>
+    <div id="home-map-overlay" class="homerollover tooltip" title="The Series"><a href="#theseries"><img src="site/assets/img/transparent.png"></a></div>
     <div class="parallax-background-0" data-stellar-background-ratio=".1"></div>
     <div class="parallax-background-1" data-stellar-background-ratio=".1"></div>
     <div class="parallax-background-2" data-stellar-background-ratio="-.05"></div>

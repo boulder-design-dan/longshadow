@@ -25,21 +25,13 @@
                 foreach($children as $child) {
                     $jumpurl = $child->get("jumpmenu_url|url"); // use redirect_url if there, otherwise use url
                     $exclude = $child->class_external? " class='external'" : ""; // check external link class for one page nav
-                    $class = $child === $page->rootParent ? " class='current'" : '';
+                    $class = $child === $page ? " class='current'" : '';
                     echo "<li$class><a$exclude href='{$jumpurl}'>{$child->title}</a></li>";
                 }
 
                 ?>
             </ul>
-            <!--
-            <ul id="menu-nav">
-                <li class="current"><a href="index.php#home">Home</a></li>
-                <li><a href="index.php#theseries">The Series</a></li>
-                <li><a href="#">Readers</a></li>
-                <li><a class="external" href="guests.html">Guests</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Shop</a></li>
-            </ul> -->
+
         </nav>
 
     </div>
