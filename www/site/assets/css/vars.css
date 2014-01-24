@@ -1,0 +1,9 @@
+/* Define colours, sizes, common paths etc here */
+/*
+Defining a common path for the images makes it a bit more flexible for moving about, but you need to specify the url
+value in a particular format (see the sample below)
+*/
+.sampleBackgroundPath {
+  background: url("../images/imagename.png") no-repeat 0 0;
+}
+/* various greys */
