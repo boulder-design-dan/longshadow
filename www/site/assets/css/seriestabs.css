@@ -36,7 +36,7 @@
   color: #C94045;
 }
 #basictabs > div {
-  float: right;
+  float: left;
   width: 500px;
   margin-left: 50px;
   margin-right: 50px;

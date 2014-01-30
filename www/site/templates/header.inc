@@ -5,7 +5,7 @@
         <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
         <div id="logo">
-            <a id="goUp" href="index.html" title="Longshadow | Days of Amy Davis">LONGSHADOW<span class="subheading">The Days of Amy Davis</span></a>
+            <a id="goUp" href="/" title="Longshadow | Days of Amy Davis">LONGSHADOW<span class="subheading">The Days of Amy Davis</span></a>
         </div>
 
         <nav id="menu">

@@ -237,7 +237,7 @@ h3.spec {
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 130px;
+  top: 112px;
   width: 100%;
 }
 .parallax-background-1 {
@@ -246,7 +246,7 @@ h3.spec {
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 130px;
+  top: 112px;
   width: 100%;
 }
 .parallax-background-2 {
@@ -255,7 +255,7 @@ h3.spec {
   margin: 0 auto;
   padding: 0;
   position: fixed;
-  top: 130px;
+  top: 112px;
   width: 100%;
   opacity: 1;
 }
@@ -696,6 +696,7 @@ nav#menu #menu-nav li a:hover {
 }
 .page {
   float: left;
+  width: 100%;
   position: relative;
   z-index: 110;
   margin-top: 0px;
